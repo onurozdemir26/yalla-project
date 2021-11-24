@@ -11,31 +11,31 @@ import EmojiIcon from '@material-ui/icons/EmojiEmotions';
 
 function index() {
     return (
-        <div className="mx-auto container">
-            <div className=" flex flex-col items-center py-10">
-                <h1 className="text-3xl py-4">How YallaCompare Works</h1>
-                <p className="text-xl py-2">Unbelievably simple process at which you can save money on your car insurance
+        <div className="xl:mx-auto xl:container">
+            <div className=" flex flex-col items-center py-10 ">
+                <h1 className="text-5xl py-4 md:text-3xl">How YallaCompare Works</h1>
+                <p className="text-2xl px-6 md:px-0 md:text-xl py-2">Unbelievably simple process at which you can save money on your car insurance
                     in Dubai in 3 easy steps!</p>
             </div>
-            <div className="transform motion-safe:hover:scale-110   py-14 p-24 ml-60 ">
-                <Image src={dashImg} alt="" width={867} height={652} className="img-fluid" />
+            <div className="transform motion-safe:hover:scale-110 py-14 flex items-center ml-4 lg:ml-24 xl:ml-60 xl:px-28">
+                <Image src={dashImg} alt="" width={867} height={652} className="img-fluid " />
             </div>
-            <div className="flex flex-row py-24">
-                <div className="w-8/12 bg-pink-500 rounded-l-xl">
-                    <h3 className="text-white text-2xl px-10 py-5">Six Reasons</h3>
+            <div className="flex flex-col md:flex-row py-24">
+                <div className="md:w-8/12 bg-pink-500 rounded-l-xl md:h-6/12">
+                    <h3 className="text-white xl:text-4xl px-10 py-5">Six Reasons</h3>
                     <div className="flex">
 
-                        <h1 className="text-white text-4xl text-bold px-10">Why You Should Choose </h1>
-                        <h1 className="text-white text-4xl text-bold px-10">#YallaCompare</h1>
+                        <h1 className="text-white xl:text-4xl text-bold px-10 md:text-xl">Why You Should Choose </h1>
+                        <h1 className="text-white xl:text-4xl text-bold px-10 md:text-xl ">#YallaCompare</h1>
                     </div>
-                    <div className="flex flex-row justify-between  px-10 py-4">
+                    <div className="flex flex-row justify-between px-10 lg:py-24">
                         <div className="flex flex-col ">
                             <div className="flex flex-row justify-between py-4">
                                 <a className="" href="/"> <TimerIcon className="text-white" /> </a>
                                 <div className="px-4 text-white">
 
-                                    <h3 className="text-xl font-bold">Fast Process</h3>
-                                    <p className="py-4 text-lg">The process takes minutes and you
+                                    <h3 className="xl:text-xl font-bold md:text-sm">Fast Process</h3>
+                                    <p className="py-4 xl:text-lg md:text-sm">The process takes minutes and you
                                         get instant quotes online.</p>
                                 </div>
 
@@ -44,8 +44,8 @@ function index() {
                             <div className="flex flex-row justify-between py-4">
                                 <a className="" href="/"> <SecurityIcon className="text-white" /> </a>
                                 <div className="px-4 text-white">
-                                    <h3 className="text-xl font-bold">Guaranteed Deal</h3>
-                                    <p className="py-4 text-lg">We guarantee the cheapest car
+                                    <h3 className="xl:text-xl font-bold md:text-sm">Guaranteed Deal</h3>
+                                    <p className="py-4 xl:text-lg md:text-sm">We guarantee the cheapest car
                                         insurance ever! We guarantee </p>
                                 </div>
 
@@ -53,8 +53,8 @@ function index() {
                             <div className="flex flex-row justify-between py-4">
                                 <a className="" href="/"> <AssignmentIcon className="text-white" /> </a>
                                 <div className="px-4 text-white">
-                                    <h3 className="text-xl font-bold">Further Assistance</h3>
-                                    <p className="py-4 text-lg">We are always here to help even
+                                    <h3 className="xl:text-xl font-bold md:text-sm">Further Assistance</h3>
+                                    <p className="py-4 xl:text-lg md:text-sm">We are always here to help even
                                         after you buy your insurance.</p>
                                 </div>
 
@@ -64,8 +64,8 @@ function index() {
                             <div className="flex flex-row justify-between py-4">
                                 <a className="" href="/"> <CompareIcon className="text-white" /> </a>
                                 <div className="px-4 text-white">
-                                    <h3 className="text-xl font-bold">Compare Prices</h3>
-                                    <p className="py-4 text-lg">Compare quotes online and find the
+                                    <h3 className="xl:text-xl font-bold md:text-sm">Compare Prices</h3>
+                                    <p className="py-4 xl:text-lg md:text-sm">Compare quotes online and find the
                                         policy that’s right for you.</p>
                                 </div>
 
@@ -73,8 +73,8 @@ function index() {
                             <div className="flex flex-row justify-between py-4">
                                 <a className="" href="/"> <HeadsetIcon className="text-white" /> </a>
                                 <div className="px-4 text-white">
-                                    <h3 className="text-xl font-bold">We Got Your Back</h3>
-                                    <p className="py-4 text-lg">You can reach out for our advisers
+                                    <h3 className="xl:text-xl font-bold md:text-sm">We Got Your Back</h3>
+                                    <p className="py-4 xl:text-lg md:text-sm">You can reach out for our advisers
                                         for any guidance at any time!</p>
                                 </div>
 
@@ -82,8 +82,8 @@ function index() {
                             <div className="flex flex-row justify-between py-4">
                                 <a className="" href="/"> <EmojiIcon className="text-white" /> </a>
                                 <div className="px-4 text-white">
-                                    <h3 className="text-xl font-bold">Best Experience</h3>
-                                    <p className="py-4 text-lg">You will have an awesome experience
+                                    <h3 className="xl:text-xl font-bold md:text-sm">Best Experience</h3>
+                                    <p className="py-4 xl:text-lg  md:text-sm">You will have an awesome experience
                                         dealing with our team</p>
                                 </div>
 
@@ -94,7 +94,7 @@ function index() {
 
 
                 </div>
-                <div className="w-4/12 ">
+                <div className="md:w-4/12 md:py-24 md:mt-10">
                     <Image src={peopleImg} height={800} alt="" className="img-fluid " />
                 </div>
             </div>

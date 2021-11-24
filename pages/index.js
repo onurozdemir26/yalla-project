@@ -13,32 +13,32 @@ export default function Home() {
 
   })
   return (
-    <div>
+    <div className="absolute">
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap" rel="stylesheet" />
       </Head>
       <Navbar />
-      <main>
-        <div className="bg-img">
-          <div className="flex flex-row mx-auto container py-10">
-            <div className="w-6/12">
-              <div className="py-10 mt-24">
+      <main className="">
+        <div className="bg-img px-6">
+          <div className="flex flex-col md:flex-row mx-auto container py-10">
+            <div className=" md:w-6/12">
+              <div className="py-4 md:py-10 md:mt-24">
                 <div>
-                  <h1 className="text-5xl ">
+                  <h1 className="text-4xl md:text-5xl ">
                     Buy New Policy
                     & Win a Brand New
                   </h1>
                 </div>
                 <div className="">
-                  <h1 className="text-5xl font-bold">Ford Ecosport!</h1>
+                  <h1 className="text-3xl md:text-5xl font-bold">Ford Ecosport!</h1>
                 </div>
               </div>
               <div className="flex flex-row">
                 <p className="text-lg flex">Plus 3 More Lucky Winners to Win AED 5,000  Each!</p>
               </div>
-              <div className=" py-4 ">
+              <div className=" py-4 flex flex-wrap">
                 <button className="py-4 px-4 bg-blue-600 text-white font-bold ">GET QUOTES</button>
                 <button className="py-4 px-4 border-2 border-blue-600 ml-4  font-bold">LEARN MORE</button>
                 <a href="/" className="py-4 px-4 underline ml-4 font-bold">CANCEL POLICY</a>
@@ -55,7 +55,7 @@ export default function Home() {
 
               </div>
             </div>
-            <div className="w-9/12 py-24">
+            <div className="md:w-9/12 md:py-24">
               <Image src={carImg} alt="" width={1496} height={823} className="img-fluid" />
             </div>
 

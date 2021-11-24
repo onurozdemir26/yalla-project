@@ -3,3 +3,8 @@
     background-repeat: no-repeat;    
     background-position:top;
 }
+@media only screen and (max-width: 1024px){
+    .bg-img{
+        background-image: none;
+    }
+}
